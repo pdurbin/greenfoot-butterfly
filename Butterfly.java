@@ -12,6 +12,7 @@ public class Butterfly extends Actor
     public void act() 
     {
         move(4);
+
         if (Greenfoot.isKeyDown("right") )
         {
             turn(3);
@@ -21,10 +22,9 @@ public class Butterfly extends Actor
         {
             turn(-3);
         }
-        if (Greenfoot.isKeyDown("left") )
-        {
-            turn(-3);
-        }
 
+        if(Greenfoot.mouseClicked(getWorld())){
+            turn(-20);
+        }
     }    
 }

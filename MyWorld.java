@@ -28,6 +28,6 @@ public class MyWorld extends World
     {
         Butterfly butterfly = new Butterfly();
         addObject(butterfly,305,207);
-        butterfly.setLocation(56,204);
+        butterfly.setLocation(56,300);
     }
 }

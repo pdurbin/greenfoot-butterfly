@@ -1,11 +1,16 @@
 #Greenfoot properties
-#Mon Oct 09 14:54:33 EDT 2017
+#Mon Oct 09 15:21:37 EDT 2017
 readme.name=@README
 class.Butterfly.image=butterfly.png
+publish.hasSource=true
+publish.shortDesc=Use right and left arrow keys to move.
+publish.title=Butterfly
 target2.name=MyWorld
 simulation.speed=46
 target2.showInterface=false
 target1.type=ClassTarget
+publish.locked=true
+publish.longDesc=
 class.MyWorld.superclass=greenfoot.World
 target2.y=0
 package.numTargets=2
@@ -14,6 +19,7 @@ target1.height=50
 target1.y=0
 target2.height=50
 target1.x=0
+publish.url=https\://github.com/pdurbin/greenfoot-butterfly
 editor.fx.0.height=716
 target1.showInterface=false
 target1.name=Butterfly
@@ -39,3 +45,4 @@ version=3.0.0
 package.numDependencies=0
 project.charset=UTF-8
 readme.height=58
+publish.tags=with-source 
