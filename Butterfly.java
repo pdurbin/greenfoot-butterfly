@@ -5,13 +5,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Butterfly extends Actor
 {
+    int speed = 4;
     /**
      * Act - do whatever the Butterfly wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        move(4);
+        move(speed);
 
         if (Greenfoot.isKeyDown("right") )
         {
@@ -25,6 +26,14 @@ public class Butterfly extends Actor
 
         if(Greenfoot.mouseClicked(getWorld())){
             turn(-20);
+        }
+
+        if (Greenfoot.isKeyDown("up")) {
+            speed = speed + 1;
+        }
+
+        if (Greenfoot.isKeyDown("down")) {
+            speed = speed - 1;
         }
     }    
 }
